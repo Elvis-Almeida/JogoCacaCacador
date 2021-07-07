@@ -29,8 +29,8 @@ const run = {
             temp += '<div class="bola" id="elemento'+ i +'" onclick="run.Clicar(this)"></div>';
         }
         this.conteiner_element.innerHTML = temp;
-        document.getElementById('elemento' + this.caça).style.backgroundColor = 'blue'
-        document.getElementById('elemento' + this.caçador).style.backgroundColor = 'red'
+        document.getElementById('elemento' + this.caça).style.backgroundImage = 'url("img/desenho-coelhinho-fofo-isolado-no-fundo-branco-imprimir-desenho-coelho-no-vetor-de-camiseta_126000-337.jpg")'
+        document.getElementById('elemento' + this.caçador).style.backgroundImage = 'url(img/depositphotos_113656328-stock-photo-black-painted-wolf.jpg)'
         document.getElementById('rodadas').textContent = 'rodada: ' + this.rodadas
     },
     Clicar: function (obj) {
